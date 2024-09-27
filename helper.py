@@ -5,7 +5,7 @@ import pandas as pd
 def filter_year(df):
     years = df['Year'].unique().tolist()
     years.sort()
-    years.insert(0, 'Calender Year')
+    years.insert(0, 'All Time')
     return years
 
 # Goals per year
@@ -78,3 +78,15 @@ def favourite_opponent(df):
     lm_fav_opponent.index = np.arange(1, len(lm_fav_opponent)+1)
 
     return cr_fav_opponent, lm_fav_opponent
+
+# Goals in a single match
+def goals_in_single_match(df):
+    cr_goals_in_single_match = df[df['Player'] == 'Cristiano Ronaldo'][
+        ['Date', 'Opponent']].value_counts().reset_index().rename(columns={'count': 'Goals'}).drop(columns='Date').head(10)
+    lm_goals_in_single_match = df[df['Player'] == 'Lionel Messi'][
+        ['Date', 'Opponent']].value_counts().reset_index().rename(columns={'count': 'Goals'}).drop(columns='Date').head(10)
+
+    cr_goals_in_single_match.index = np.arange(1, len(cr_goals_in_single_match) + 1)
+    lm_goals_in_single_match.index = np.arange(1, len(lm_goals_in_single_match) + 1)
+
+    return cr_goals_in_single_match, lm_goals_in_single_match
