@@ -1,5 +1,3 @@
-from unittest.mock import inplace
-
 import pandas as pd
 
 # Modification function of dataframe
