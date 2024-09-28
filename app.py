@@ -337,9 +337,11 @@ if selected == 'Overall':
                     "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_fav_opponent)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_fav_opponent)
 
     # Most goals in a single match
@@ -350,8 +352,10 @@ if selected == 'Overall':
                     "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_most_goal)
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_most_goal)
 
 
@@ -363,9 +367,11 @@ if selected == 'Overall':
                     "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_goal_type)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_goal_type)
 
     # Position-wise Goals
@@ -376,9 +382,11 @@ if selected == 'Overall':
                     "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_goal_pos)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_goal_pos)
 
 
@@ -748,9 +756,11 @@ if selected == 'League':
                     "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_fav_league_opponent)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_fav_league_opponent)
 
     # Most goals in a single match
@@ -761,8 +771,10 @@ if selected == 'League':
                     "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_league_most_goal)
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_league_most_goal)
 
     # Types of Goals
@@ -773,9 +785,11 @@ if selected == 'League':
                     "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_league_goal_type)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_league_goal_type)
 
     # Position-wise Goals
@@ -786,9 +800,11 @@ if selected == 'League':
                     "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_league_goal_pos)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_league_goal_pos)
 
     # Goals per 90 minute
@@ -952,9 +968,11 @@ if selected == 'UEFA Champions League':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_fav_ucl_opponent)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_fav_ucl_opponent)
 
     # Most goals in a single match
@@ -965,8 +983,10 @@ if selected == 'UEFA Champions League':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_ucl_most_goal)
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_ucl_most_goal)
 
     # Types of Goals
@@ -977,9 +997,11 @@ if selected == 'UEFA Champions League':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_ucl_goal_type)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_ucl_goal_type)
 
     # Position-wise Goals
@@ -990,9 +1012,11 @@ if selected == 'UEFA Champions League':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_ucl_goal_pos)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_ucl_goal_pos)
 
     # Goals per 90 minute
@@ -1255,9 +1279,11 @@ if selected == 'Domestic Cup':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_fav_dc_opponent)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_fav_dc_opponent)
 
     # Most goals in a single match
@@ -1268,8 +1294,10 @@ if selected == 'Domestic Cup':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_dc_most_goal)
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_dc_most_goal)
 
     # Types of Goals
@@ -1280,9 +1308,11 @@ if selected == 'Domestic Cup':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_dc_goal_type)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_dc_goal_type)
 
     # Position-wise Goals
@@ -1293,9 +1323,11 @@ if selected == 'Domestic Cup':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_dc_goal_pos)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_dc_goal_pos)
 
     # Goals per 90 minute
@@ -1555,9 +1587,11 @@ if selected == 'Domestic Super Cup':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_fav_dsc_opponent)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_fav_dsc_opponent)
 
     # Most goals in a single match
@@ -1568,8 +1602,10 @@ if selected == 'Domestic Super Cup':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_dsc_most_goal)
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_dsc_most_goal)
 
     # Types of Goals
@@ -1580,9 +1616,11 @@ if selected == 'Domestic Super Cup':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_dsc_goal_type)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_dsc_goal_type)
 
     # Position-wise Goals
@@ -1593,9 +1631,11 @@ if selected == 'Domestic Super Cup':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_dsc_goal_pos)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_dsc_goal_pos)
 
     # Goals per 90 minute
@@ -1722,9 +1762,11 @@ if selected == 'Other Cups':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_fav_oc_opponent)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_fav_oc_opponent)
 
     # Most goals in a single match
@@ -1735,8 +1777,10 @@ if selected == 'Other Cups':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_oc_most_goal)
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_oc_most_goal)
 
     # Types of Goals
@@ -1747,9 +1791,11 @@ if selected == 'Other Cups':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_oc_goal_type)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_oc_goal_type)
 
     # Position-wise Goals
@@ -1760,9 +1806,11 @@ if selected == 'Other Cups':
                         "</h2>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
+            st.subheader('Ronaldo Stats:')
             st.table(cr_oc_goal_pos)
 
         with col2:
+            st.subheader('Messi Stats:')
             st.table(lm_oc_goal_pos)
 
     # Goals per 90 minute
