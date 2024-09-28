@@ -56,7 +56,7 @@ df = preprocessor.dataframe_modifier(df)
 
 # Sidebar
 st.sidebar.title('C.Ronaldo vs L.Messi')
-st.sidebar.header('Club Career Analysis')
+st.sidebar.header('Year-wise Club Career Analysis')
 
 with st.sidebar:
     selected = option_menu(None, ['Overall', 'League', 'UEFA Champions League', 'Domestic Cup', 'Domestic Super Cup', 'Other Cups'],
@@ -80,7 +80,11 @@ if selected == 'Overall':
                 "</h2>", unsafe_allow_html=True)
     st.divider()
     st.markdown('The debate over who is the greatest footballer of all time (GOAT) between Lionel Messi and Cristiano Ronaldo has captivated football fans for over two decades. Their rivalry, characterized by their individual brilliance, consistency, and ability to perform on the biggest stages, has defined an era in football history. Both players have rewritten record books and pushed the boundaries of what is achievable on the field, setting new benchmarks in club football.')
-    st.markdown('This project aims to explore and compare the club careers of Messi and Ronaldo using data collected between `10 July 2002 and 18 March 2023`. Through this analysis, we hope to contribute a deeper understanding of their remarkable club careers and further fuel the ongoing debate about who is truly the GOAT.')
+    st.markdown('This project aims to explore and compare the club careers of Messi and Ronaldo using data collected between **`10 July 2002 and 18 March 2023`**. Through this `Year-wise` analysis, we hope to contribute a deeper understanding of their remarkable club careers and further fuel the ongoing debate about who is truly the GOAT.')
+    st.markdown('**Note:**\n'
+                '\nIn all **`El Clásico graphs`** , venue **`H`** represents **`Home`**, and **`A`** represents  **`Away`**.\n'
+                '\nIn every section where the **`Scored Against`** value is shown, it refers to **`Teams`** '
+                )
 
     st.divider()
 
@@ -303,7 +307,7 @@ if selected == 'Overall':
             st.markdown(f"""
                     <div class="stat-box stat-box-ronaldo">
                         <h1>{cr_h2h_match_goal}</h1>
-                        <p>Ronaldo Goals</p>
+                        <p>Ronaldo</p>
                     </div>
                 """, unsafe_allow_html=True)
 
@@ -311,7 +315,7 @@ if selected == 'Overall':
             st.markdown(f"""
                     <div class="stat-box stat-box-messi">
                         <h1>{lm_h2h_match_goal}</h1>
-                        <p>Messi Goals</p>
+                        <p>Messi</p>
                     </div>
                 """, unsafe_allow_html=True)
 
@@ -920,7 +924,7 @@ if selected == 'UEFA Champions League':
             st.markdown(f"""
                         <div class="stat-box stat-box-ronaldo">
                             <h1>{cr_h2h_ucl_match_goal}</h1>
-                            <p>Ronaldo Goals</p>
+                            <p>Ronaldo</p>
                         </div>
                     """, unsafe_allow_html=True)
 
@@ -928,7 +932,7 @@ if selected == 'UEFA Champions League':
             st.markdown(f"""
                         <div class="stat-box stat-box-messi">
                             <h1>{lm_h2h_ucl_match_goal}</h1>
-                            <p>Messi Goals</p>
+                            <p>Messi</p>
                         </div>
                     """, unsafe_allow_html=True)
 
@@ -1223,7 +1227,7 @@ if selected == 'Domestic Cup':
             st.markdown(f"""
                     <div class="stat-box stat-box-ronaldo">
                         <h1>{cr_h2h_cdl_match_goal}</h1>
-                        <p>Ronaldo Goals</p>
+                        <p>Ronaldo</p>
                     </div>
                 """, unsafe_allow_html=True)
 
@@ -1231,7 +1235,7 @@ if selected == 'Domestic Cup':
             st.markdown(f"""
                     <div class="stat-box stat-box-messi">
                         <h1>{lm_h2h_cdl_match_goal}</h1>
-                        <p>Messi Goals</p>
+                        <p>Messi</p>
                     </div>
                 """, unsafe_allow_html=True)
 
@@ -1525,7 +1529,7 @@ if selected == 'Domestic Super Cup':
             st.markdown(f"""
                         <div class="stat-box stat-box-ronaldo">
                             <h1>{cr_h2h_sde_match_goal}</h1>
-                            <p>Ronaldo Goals</p>
+                            <p>Ronaldo</p>
                         </div>
                     """, unsafe_allow_html=True)
 
@@ -1533,7 +1537,7 @@ if selected == 'Domestic Super Cup':
             st.markdown(f"""
                         <div class="stat-box stat-box-messi">
                             <h1>{lm_h2h_sde_match_goal}</h1>
-                            <p>Messi Goals</p>
+                            <p>Messi</p>
                         </div>
                     """, unsafe_allow_html=True)
         st.divider()
